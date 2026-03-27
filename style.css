@@ -85,29 +85,33 @@ body {
 
 #locations-content {
     display: flex;
-    flex-direction: column;
-    justify-content: right;
+    flex-direction: row;
+    justify-content: right; 
     gap: 0px;
 }
 
 #num {
-    background-color: #ff622b;
-
-}
-
-#num h3 {
     display: flex;
-    justify-content: end;
     background-color: #ff622b;
-
-
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    margin-top: 140px;
+    font-size: 26px;
+    font-weight: 700;
 }
+
 
 #locations h1 {
+    display: flex;
     color: black;
     font-style: italic;
     font-size: 380px;
-    margin-left: 50px;
+    padding: 60px;
+    margin: 0;
 }
 
 #locations-images {
@@ -469,6 +473,4 @@ body {
     font-size: 26px;
     font-weight: 900;
 }
-
-
 
