@@ -81,32 +81,33 @@ body {
 
 #locations {
     background-color: white;
-    position: relative;
 }
 
+#locations-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    gap: 0px;
+}
 
 #num {
-    position: absolute;
-    top: 150px;
-    right: 40px;
-    width: 60px;
-    height: 60px;
     background-color: #ff622b;
-    border-radius: 100%;
+
+}
+
+#num h3 {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    font-weight: bold;
-    font-size: 30px;
+    justify-content: end;
+    background-color: #ff622b;
+
+
 }
 
 #locations h1 {
     color: black;
     font-style: italic;
     font-size: 380px;
-    margin: 0;
-    padding: 100px;
+    margin-left: 50px;
 }
 
 #locations-images {
@@ -282,8 +283,11 @@ body {
 }
 
 #arrows {
-    position: relative;
-
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+    margin-right: 160px;
+    margin-top: 100px;
 }
 
 #clients-arrow-left {
@@ -296,9 +300,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: 130px;
-    right: 150px;
     opacity: 50%;
 }
 
@@ -312,15 +313,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: 130px;
-    right: 95px;
 }
 
 #clients-image {
     display: flex;
     gap: 80px;
-    padding: 200px 20px 50px 20px;
+    padding: 50px 20px 50px 20px;
     margin: 0;
 }
 
@@ -340,8 +338,7 @@ body {
 #zoheb-intro {
     color: #ff622b;
     display: flex;
-    flex-direction: column;
-    padding: 20px;
+    justify-content: left;
     font-style: italic;
     font-size: 26px;
     font-weight: 600;
@@ -349,14 +346,16 @@ body {
 }
 
 #zoheb-text p {
-    display: flex;
     align-content: flex-start;
     justify-content: space-between;
-    padding: 20px;
-    max-width: 400px;
+    max-width: 390px;
     font-weight: 600;
     font-size: 25px;
-    margin: 0;
+    margin-top: 40px;
+}
+
+.aspas {
+    color: #ff622b;
 }
 
 #zoheb-aspas-intro {
@@ -364,7 +363,6 @@ body {
 }
 
 #zoheb-aspas-outro {
-    align-content: flex-end;
     color: #ff622b;
 }
 
@@ -382,31 +380,36 @@ body {
 #evan-intro {
     color: #ff622b;
     display: flex;
+    justify-content: center;
     font-style: italic;
     font-size: 26px;
-    margin-top: 70px;
     font-weight: 600;
+    margin-top: 70px;
+
+}
+
+#evan-text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
     padding: 20px;
+    gap:    0px;
 }
 
 #evan-text p {
-    position: relative;
-    display: flex;
-    max-width: 400px;
-    padding: 20px;
+    align-content: flex-start;
+    justify-content: space-between;
+    max-width: 390px;
     font-weight: 600;
     font-size: 25px;
-    margin: 0;
+    margin-top: 40px;
 }
 
-#evan-aspas-intro {
+#evan-intro-aspas {
     color: #ff622b;
 }
 
-#evan-aspas-outro {
-    position: absolute;
-    top: 145px;
-    right: 155px;
+#evan-outro-aspas {
     color: #ff622b;
 }
 
@@ -467,12 +470,5 @@ body {
     font-weight: 900;
 }
 
-.title {
-    text-align: center;
-    font-style: italic;
-    letter-spacing: -6px;
-    line-height: 100%;
-    font-weight: 300;
-    font-size: 200px;
-}
+
 
