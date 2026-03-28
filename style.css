@@ -474,3 +474,82 @@ body {
     font-weight: 900;
 }
 
+#app-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+/* linha de baixo */
+#bottom-footer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* textos */
+#app-footer h2 {
+    font-size: 200px;
+    font-style: italic;
+    line-height: 90%;
+    margin: 0;
+}
+
+/* QR */
+#download-app-qrcode img {
+    width: 150px;
+    height: 150px;
+}
+
+#download-apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.app-download {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 300px;
+    height: 80px;
+}
+
+#paper-section {
+    background-color: white;
+}
+
+#paper-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#paper-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+#paper-heading h2 {
+    font-size: 330px;
+    font-style: italic;
+}
+
+#view-all-button {
+    display: flex;
+    justify-content: center; 
+    align-items: center;      
+    font-size: 24px;
+    width: 180px;
+    height: 180px;
+    background-color: #ff622b;
+    border-radius: 50%;      
+    text-align: center;
+    margin-top: 80px;
+    font-style: italic;  
+}
