@@ -1113,6 +1113,7 @@ header {
 
     .book-now-intro {
         font-size: 100px;
+        letter-spacing: -10px;
     }
 
 }
@@ -1292,7 +1293,7 @@ header {
 @media (max-width: 500px) {
 
     .cta-footer-text p {
-        max-width: 350px;
+        max-width: 320px;
     }
 
 }
