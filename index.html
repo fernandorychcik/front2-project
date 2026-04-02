@@ -14,55 +14,82 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <div id="header">
-        <div id="icon">
-            <a href="https://www.myrendezvous.ca/">
+<header class="header">
+
+    <div class="header-content">
+
+        <div class="header-icon-container">
+
+            <div class="icon">
                 <img src="imgs/icon.png" alt="icone">
-            </a>
-        </div>
-        <div class="app">DOWNLOAD APP ↗
-        </div>
-    </div>
-    <div id="intro">
-        Toronto-based barbershops
-        <em id="intro-italic">
-            specializing in the latest modern short hair styles
-        </em>
-
-    </div>
-    <div id="intro-img">
-        <img src="imgs/img thumb.png" alt="imagem da thumbnail">
-    </div>
-    <div id="about">
-        <p>It's not just about getting a <br>haircut. It’s about the luxury of <br>taking time for yourself in a<br>
-            busy schedule.
-        </p>
-        <h2>It’s all about <br>the pleasure to <br>feel yourself</h2>
-    </div>
-
-    <div id="about-img"><img src="imgs/haircut.webp" alt="">
-    </div>
-
-    <div id="locations">
-
-        <div id="locations-content">
-
-            <h1>Locations</h1>
-            <div id="num">5</div>
+            </div>
+            <div class="app">
+                DOWNLOAD APP ↗
+            </div>
         </div>
 
-        <div id="locations-images">
+        <div class="intro">
+            <h1>
+                Toronto-based barbershops
+                <em class="italic">
+                    specializing in the latest modern short hair styles
+                </em>
+            </h1>
+        </div>
 
-            <div id="first-image">
+        <div class="intro-img">
+            <img src="imgs/img thumb.png" alt="imagem da thumbnail">
+        </div>
+        <div class="about-container">
+            <p>
+                It's not just about getting a <br>haircut. It’s about the luxury of <br>taking time for yourself in
+                a<br>
+                busy schedule.
+            </p>
+            <h2>5
+                It’s all about <br>the pleasure to <br>feel yourself
+            </h2>
+        </div>
+
+        <div class="about-img">
+
+            <img src="imgs/haircut.webp" alt="">
+
+        </div>
+
+    </div>
+
+</header>
+
+<body>
+    <section class="locations">
+
+        <div class="locations-intro-container">
+
+            <h2>
+                Locations
+            </h2>
+
+            <div class="circle">
+                5
+            </div>
+
+        </div>
+
+
+        </div>
+
+        <div class="locations-inner-container">
+
+            <div class="store">
 
                 <img src="imgs/pessoa 1.webp" alt="pessoa 3 ">
 
-                <div id="first-image-store">
+                <div class="store-name">
 
                     <h3>Queen St</h3>
 
-                    <div id="plus-first-store">
+                    <div class="store-plus">
                         +
                     </div>
 
@@ -70,63 +97,83 @@
 
             </div>
 
-            <div id="second-image">
+            <div class="store">
 
                 <img src="imgs/pessoa 2.webp" alt="pessoa 3">
 
-                <div id="second-image-store">
+                <div class="store-name">
 
                     <h3>Scarborough</h3>
 
-                    <div id="plus-second-store">
+                    <div class="store-plus">
                         +
                     </div>
                 </div>
 
             </div>
 
-            <div id="third-image">
+            <div class="store">
+
                 <img src="imgs/pessoa 3.webp" alt="pessoa 3">
-                <div id="third-image-store">
-                    <h3>Yonge & Wellington</h3>
-                    <div id="plus-third-store">
+
+                <div class="store-name">
+
+                    <h3>
+                        Yonge & Wellington
+                    </h3>
+
+                    <div class="store-plus">
                         +
                     </div>
                 </div>
             </div>
 
-        </div>
 
-        <div id="second-locations-images">
 
-            <div id="fourth-image">
+
+            <div class="store">
+
                 <img src="imgs/pessoa 4.webp" alt="pessoa 4">
-                <div id="fourth-image-store">
-                    <h3>King St & Bathurst</h3>
-                    <div id="plus-fourth-store">
+
+                <div class="store-name">
+
+                    <h3>
+                        King St & Bathurst
+                    </h3>
+
+                    <div class="store-plus">
                         +
                     </div>
+
                 </div>
+
             </div>
+
             <div id="fifth-image">
+
                 <div id="fifth-image-text">
+
                     <h3>
                         Coming soon
                     </h3>
                     <p>
                         30 mutual st
                     </p>
-                    
+
+                </div>
+
             </div>
         </div>
-    </div>
 
-    <div id="quote">
-        When <em>you look good</em>, <em>you</em>
-        <span id="quote-color"><em>feel good</em></span>
-    </div>
 
-    <div id="clients">
+        <div class="quote">
+            When <em>you look good</em>, <em>you</em>
+            <span id="quote-color"><em>feel good</em></span>
+        </div>
+    </section>
+
+    <section class="clients">
+
         <div id="clients-intro">
             <h2>Clients</h2>
         </div>
@@ -155,10 +202,10 @@
                     <span id="zoheb-intro">Zoheb</span>
 
                     <p>
-                        <span id="zoheb-aspas-intro">"</span>I have visited Rendezvous in Wellington three times now
+                        <span class="aspas">"</span>I have visited Rendezvous in Wellington three times now
                         andeach and every time the service has been exceptional. Hamo is an amazing barber, his
                         technique is first class and customer service
-                        is world class.<span id="zoheb-aspas-outro">"</span>
+                        is world class.<span class="aspas">"</span>
 
                     </p>
 
@@ -176,9 +223,9 @@
 
                     <p>
 
-                        <span id="evan-intro-aspas">"</span>Amazing experience, Stas is truly the best in the city!
+                        <span class="aspas">"</span>Amazing experience, Stas is truly the best in the city!
                         Super nice interior with beverages and
-                        friendly staff. Could not recommend enough!<span id="evan-outro-aspas">"</span>
+                        friendly staff. Could not recommend enough!<span class="aspas">"</span>
 
                     </p>
 
@@ -187,9 +234,9 @@
 
         </div>
 
-    </div>
+    </section>
 
-    <div id="app-section">
+    <section class="app-section">
 
         <div id="app-intro">
             <h2>Our app lets you:</h2>
@@ -221,7 +268,8 @@
                     <h5>
                         2
                     </h5>
-                    <p>Save time and leave the stress to someone else. With Rendezvous app, setting up your next haircut
+                    <p>Save time and leave the stress to someone else. With Rendezvous app, setting up your next
+                        haircut
                         appointment is free and easy
                     </p>
                 </div>
@@ -256,9 +304,9 @@
 
         </div>
 
-    </div>
+    </section>
 
-    <div id="paper-section">
+    <section class="paper-section">
 
         <div id="paper-header-container">
 
@@ -276,15 +324,18 @@
         <div class="paper-container">
             <a>
                 <div class="card-info">
+
                     <div class="card-header">
                         <p>News</p>
                         <p>March 4, 2026</p>
                     </div>
+                    
                     <div class="card-body">
                         <h3>
                             Should I Tip My Barber in Cash or on the Card?
                         </h3>
                     </div>
+                    
                     <div class="card-footer">
                         →
                     </div>
@@ -296,18 +347,22 @@
 
             <a>
                 <div class="card-info">
+
                     <div class="card-header">
                         <p>Grooming</p>
                         <p>March 4, 2026</p>
                     </div>
+
                     <div class="card-body">
                         <h3>
                             How Do I Tell My Barber I Want to Switch to Someone Else at the Same Shop?
                         </h3>
                     </div>
+
                     <div class="second-card-footer">
                         →
                     </div>
+                    
                 </div>
 
                 <img class="card-image" src="imgs/news image 2.jpg" alt="">
@@ -317,9 +372,9 @@
 
         </div>
 
-    </div>
+    </section>
 
-    <div id="faq-section">
+    <section class="faq-section">
 
         <div class="faq-intro">
             <h2>
@@ -562,9 +617,11 @@
                 </div>
 
                 <div class="book-now-header-text">
-                    The most straightforward is through our website. Simply click the link in the bottom right corner,
+                    The most straightforward is through our website. Simply click the link in the bottom right
+                    corner,
                     and
-                    follow the prompts to select Location, Barber OR Service, and then confirm whether you would like
+                    follow the prompts to select Location, Barber OR Service, and then confirm whether you would
+                    like
                     the
                     payment to be processed online or paid in store.
                 </div>
@@ -590,9 +647,11 @@
 
                     <div class="cta-footer-text">
                         <p>
-                            You can also follow the same process through our branded app, which keeps you logged in so
+                            You can also follow the same process through our branded app, which keeps you logged in
+                            so
                             you
-                            don’t have to enter your personal details each time you book. All appointment history and
+                            don’t have to enter your personal details each time you book. All appointment history
+                            and
                             details will be stored in one easily accessible place.
                         </p>
                     </div>
@@ -602,13 +661,13 @@
             </div>
         </div>
 
-    </div>
+    </section>
 
 </body>
 
 <footer>
 
-    <div class="footer-footer">
+    <div class="footer">
 
         <div class="footer-inner">
 
